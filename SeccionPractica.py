@@ -1,12 +1,12 @@
-def tarea2 (A,B):
+def tarea2(A, B):
 
-    respuesta=[]
+    respuesta = []
 
-    if type(A)==int and type(B)==int:
+    if type(A) == int and type(B) == int:
 
-        if  A >= B:
+        if A >= B:
 
-            respuesta = [A-B,A+B,A*B]
+            respuesta = [A - B, A + B, A * B]
 
             return respuesta
 
