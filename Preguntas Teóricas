@@ -1,0 +1,39 @@
+1. Es el software más utilizado para controlar las distintas versiones de un programa, posee una amplia 
+flexibilidad para el manejo y el mantenimiento de las aplicaciones.
+
+2. Github es una plataforma de desarrollo en línea, la cual funciona para alojar proyectos en desarrollo 
+y controlar sus versiones mediante el sistema Git. Además, es una plataforma colaborativa, por lo que 
+varias personas pueden trabajar en el mismo proyecto.
+
+3. Un Branch en Git es un puntero dirigido a cierto cambio hecho en el proyecto. Ya que cada cambio en Git
+es almacenado como un Commit se crea un Branch para acceder al Commit deseado.
+
+4. Un Commit es un registro de los cambios hechos a un proyecto en Git, cada cambio es guardado como un Commit, 
+este posee un tree que almacena todos los directorios del proyecto, el autor del proyecto y el creador de los 
+cambios.
+
+5. Cuando un archivo esta “staged” en Git es cuando esta preparado para ser almacenado en un Commit, esto es
+útil cuando se tienen varios archivos en un proyecto, si se avanza en uno y se quiere guardar los cambios de 
+este sin alterar los demás, se prepara el archivo deseado y posteriormente se guarda con un Commit.
+
+6. El comando Git Checkout permite navegar entre los distintos branches creados, al hacer esto se actualizan 
+los archivos en el directorio de trabajo con los contenidos en el branch y se guardan todos los nuevos cambios 
+en este branch.
+
+7. El comando Git Stash guarda temporalmente los cambios realizados, esto para trabajar en algo mas y volver 
+al archivo en el que se estaba trabajando más adelante.
+
+8. El comando Git Add agrega los archivos del área de trabajo al staging área, en donde estos son preparados 
+para almacenarse en un Commit.
+
+9. Pytest es un framework de prueba, el cual permite correr pequeños programas de prueba en Python, es 
+mayormente utilizado para hacer pruebas de APIs gracias a su uso simple, su syntaxis y su versatilidad para 
+correr pruebas en paralelo.
+
+10. Un assert en Pytest es una afirmación la cual es revisada para verificar resultados o valores dentro de 
+la prueba, para esto se afirma que el resultado de la función es cierto valor esperado, si esta afirmación no 
+es cierta Pytest muestra el error.
+
+11. Flake 8 es una librería de Python que facilita herramientas para la revisión de código, entre otras cosas 
+se puede revisar el codigo base contra un estilo de codigo, errores de programación y la complejidad de sus 
+ciclomatica o “cyclomatic complexity”, la cual aumenta según el numero de ifs dentro de una función.
